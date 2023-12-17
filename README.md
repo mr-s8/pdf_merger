@@ -1,5 +1,6 @@
 # merger_gui
 Python Gui that allows to merge files via drag and drop. 
+Only for windows rn.
 
 Most of the requirements can be installed with pip. 
 Only the TkinterDnD2 library has to be installed manually.
