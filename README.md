@@ -24,7 +24,7 @@ python youtube_downloader.py
 
 # ToDo
 - check linux compatibility
-- fix bug: sometimes images seems to be cropped in the final pdf file
+- FIX BUG: sometimes images seems to be cropped in the final pdf file
 - add a checkbox, that decides wether or not the images converted to temporary pdfs should be stored or deleted after merging
 
 ## Pictures
