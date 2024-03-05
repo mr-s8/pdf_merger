@@ -25,25 +25,10 @@ python youtube_downloader.py
 
 
 # ToDo
-Features to add:
-- get links from textfile
-- download playlist all at once
-- use multithreading (one thread for gui and one for each download)                             ✓
-- show thumbnail when adding video
-- show progressbar
-- add other formats than mp4 and mp3
-- allow user to choose resolution
-- show debug messages to a textbox in the gui (also because multithreading spams the console)  ✓
-- check Linux compatibility
-
-To fix:
-- with the ANDROID_CREATOR client, in some cases, there is no 1080p stream, even though there should be one,
-    using the ADROID client could fix this, it fixes a loop bug with age restricted videos, but leads to 403 errors
-    very often; how can I eliminate all these bugs?
 
 ## Pictures
 <div align="center">
   <p>
-    <a href="https://github.com/mr-s8/merger_gui/blob/main/images/pdf_merger_gui.png"><img src="https://github.com/mr-s8/merger_gui/blob/main/images/pdf_merger_gui.png" width="800" alt="pytube logo" /></a>
+    <a href="https://github.com/mr-s8/merger_gui/blob/main/images/pdf_merger_gui.png"><img src="https://github.com/mr-s8/merger_gui/blob/main/images/pdf_merger_gui.png" width="600" alt="pytube logo" /></a>
   </p>
 </div>
