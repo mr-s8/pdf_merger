@@ -11,14 +11,12 @@ A GUI made with Tkinter, that allows the user to merge pdf and image files toget
 
 # How to install:
 1. download the python skript and the requirements.txt file
-2. install python from: https://www.python.org/
+2. if not done install python from: https://www.python.org/
 3. In the folder where the requirements.txt file is located, open a terminal and install the dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
-4. Download and install ffmpeg from: https://ffmpeg.org/download.html
-5. If not already done, add ffmpeg to PATH
-6. In the folder where the python skript is located, open a terminal and start the app with:
+4. In the folder where the python skript is located, open a terminal and start the app with:
 ```bash
 python youtube_downloader.py
 ```
