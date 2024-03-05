@@ -3,7 +3,7 @@ from tkinter import ttk
 import customtkinter as ctk
 import PyPDF3
 import os
-from TkinterDnD2 import DND_FILES, TkinterDnD # for the drag and drop function
+from tkinterdnd2 import DND_FILES, TkinterDnD # for the drag and drop function
 import shutil
 
 from reportlab.lib.pagesizes import letter  # for converting images to pdfs
