@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 4. In the folder where the python skript is located, open a terminal and start the app with:
 ```bash
-python youtube_downloader.py
+python pdf_merger.py
 ```
 
 
