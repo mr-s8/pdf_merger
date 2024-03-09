@@ -10,7 +10,7 @@ from reportlab.lib.pagesizes import letter  # for converting images to pdfs
 from reportlab.pdfgen import canvas
 from PIL import Image
 
-#import tempfile     # to create temporary folders to store converted not yet  merged pdfs
+
 
 import time 
 
@@ -42,7 +42,6 @@ def clean_path(raw):
 def drop_inside_list_box(event):
     raw_paths = event.data
     cleaned_up_paths = clean_path(raw_paths)
-    #file_names.extend(cleaned_up_paths)     # extend because there could be multiple files at once, if multiple files are highlighted and dropped # dont need that anymore, useing listbox.get() function
     for i in cleaned_up_paths:
             if i.endswith(("pdf", ".png",".jpg", "jpeg")):
                 listb.insert("end", i)
@@ -100,6 +99,7 @@ def merge():
             merge_pdfs(generate_filename(listb.get(0, "end")), listb.get(0, "end"))   # use all names as filename
         else:
             merge_pdfs(output_file, listb.get(0, "end"))    # else use provided name
+        delete_all()
     else:
         return              # if  no files are provided do nothing
 
