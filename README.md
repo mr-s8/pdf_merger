@@ -16,7 +16,7 @@ A GUI made with Tkinter, that allows the user to merge pdf and image files toget
 ```bash
 pip install -r requirements.txt
 ```
-4. In the folder where the python skript is located, open a terminal and start the app with:
+4. In the folder where the python script is located, open a terminal and start the app with:
 ```bash
 python pdf_merger.py
 ```
